@@ -1,2 +1,2 @@
 # Organizaci-n-de-Computadores
-Organización de computadres 1-2021
+Organización de computadores 1-2021

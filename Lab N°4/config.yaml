@@ -1,0 +1,18 @@
+# Archivo de configuración YAML para el simulador de caché
+arquitectura:
+  tamano_palabra: 4 #bytes
+  tamano_bloque: 16 #bytes
+cache_1: #requerido
+  bloques: 16
+  asociatividad: 2
+  tiempo_acceso: 1 #ciclos
+cache_2:
+  bloques: 64
+  asociatividad: 4
+  tiempo_acceso: 10 #ciclos
+cache_3:
+  bloques: 256
+  asociatividad: 8
+  tiempo_acceso: 100 #ciclos
+mem_principal: #requerido
+  tiempo_acceso: 1000 #ciclos
